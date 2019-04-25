@@ -25,11 +25,11 @@ import { ApolloProvider } from 'react-apollo';
 import App from '../../react/components/App';
 // Apollo client setup
 const httpLink = createHttpLink({
-  uri: 'https://whlsl.myshopify.com/api/graphql',
+  uri: 'https://YOUR_STORE_NAME.myshopify.com/api/graphql',
 });
 const middlewareLink = setContext(() => ({
   headers: {
-    'X-Shopify-Storefront-Access-Token': '2b7099c9495e5e41a4a87e66660e4b8d',
+    'X-Shopify-Storefront-Access-Token': 'YOUR_ACCESS_TOKEN',
   },
 }));
 const client = new ApolloClient({
