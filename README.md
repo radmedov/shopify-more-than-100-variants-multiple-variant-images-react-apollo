@@ -1,4 +1,4 @@
-# Alo/BC Wholesale
+# Shopify starter theme with PDP built on React/Apollo
 
 ## Technology Stack
 
@@ -6,6 +6,4 @@
 * GraphQL
 * Apollo
 * Vanilla JS
-* ES 6
-* Liquid
 * Web Pack 4
