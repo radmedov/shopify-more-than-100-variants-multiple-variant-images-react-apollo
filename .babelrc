@@ -1,0 +1,4 @@
+{
+  "presets": ["es2015", "babel-preset-env", "babel-preset-react","shopify/web"],
+  "plugins": ["transform-async-to-generator", "transform-react-jsx-source"]
+}
